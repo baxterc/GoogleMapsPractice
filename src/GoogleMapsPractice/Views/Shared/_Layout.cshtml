@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+@model GoogleMapsPractice.Models.LocationSearch
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.search').submit(function (event) {
+                event.preventDefault();
+                $.ajax({
+                    url: '@Url.Action("Search", "Home")',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: $(this).serialize(),
+                    success: function (result) {
+                        console.log(result)
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <nav>
+        <form action="search" class="search">
+            @Html.LabelFor(model => model.Lat)
+            @Html.TextBoxFor(model => model.Lat)
+
+            @Html.LabelFor(model => model.Long)
+            @Html.TextBoxFor(model => model.Long)
+
+            @Html.LabelFor(model => model.Description)
+            @Html.TextBoxFor(model => model.Description)
+            <input type="submit" value="Search" />
+        </form>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

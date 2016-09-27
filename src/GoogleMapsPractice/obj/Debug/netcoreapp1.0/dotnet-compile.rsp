@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\OmarComin\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\OmarComin\bin\Debug\netcoreapp1.0\OmarComin.dll
+--temp-output:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\GoogleMapsPractice\obj\Debug\netcoreapp1.0\
+--out:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\GoogleMapsPractice\bin\Debug\netcoreapp1.0\GoogleMapsPractice.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -8,7 +8,7 @@
 --suppress-warning:CS1705
 --optimize:False
 --emit-entry-point:True
---output-name:OmarComin
+--output-name:GoogleMapsPractice
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0
@@ -207,9 +207,10 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll
---resource:"C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\OmarComin\obj\Debug\netcoreapp1.0\OmarComindotnet-compile.deps.json",OmarComin.deps.json
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\OmarComin\Program.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\OmarComin\Startup.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\OmarComin\Controllers\HomeController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\OmarComin\Models\ApplicationDbContext.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\OmarComin\Models\LocationSearch.cs
+--resource:"C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\GoogleMapsPractice\obj\Debug\netcoreapp1.0\GoogleMapsPracticedotnet-compile.deps.json",GoogleMapsPractice.deps.json
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\GoogleMapsPractice\Program.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\GoogleMapsPractice\Startup.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\GoogleMapsPractice\Controllers\HomeController.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\GoogleMapsPractice\Models\ApplicationDbContext.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\GoogleMapsPractice\Models\EnvironmentVariables.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\GoogleMapsPractice\src\GoogleMapsPractice\Models\LocationSearch.cs

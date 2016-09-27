@@ -20,14 +20,10 @@ namespace GoogleMapsPractice.Models
         public float Long { get; set; }
         public string Description { get; set; }
 
-        public void Search()
+        public void CenterMap()
         {
-            var client = new RestClient("https://maps.googleapis.com/maps/api/place");
-            var request = new RestRequest("/nearbysearch/json?location=" + Lat + "," + Long + "&radius=1000&name=" + Description + "&key=AIzaSyCVSYAYFCgQRLTaigD-y5QZfoZj_LhbbWU", Method.POST);
-            client.ExecuteAsync(request, response =>
-            {
-                Console.WriteLine(response.Content);
-            });
+
         }
+
     }  
 }
